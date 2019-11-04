@@ -1,0 +1,81 @@
+/* board리스트의 게시판 스타일 */
+@import "boardTable.css";
+/* css를 리셋해준다. */
+@import "reset.css";
+/* modal스타일 */
+@import "modal.css";
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+/* 기본 배경색과 글자색 셋팅 */
+html,
+body {
+  background-color: #f5f4fa;
+  color: #282829;
+}
+/* 헤더부 */
+.g-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: cornflowerblue;
+  padding: 17px 23px;
+}
+
+.g-header .g-header_title {
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* 메인 */
+.g-contents {
+  display: flex;
+  justify-content: space-between;
+  min-height: 850px;
+  margin-bottom: 80px;
+}
+/* 메뉴바 */
+.g-nav {
+  width: 15%;
+  padding-left: 13px;
+  padding-top: 23px;
+  border-right: 1px solid rgb(226, 221, 221);
+}
+.g-nav .menu_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.g-nav .menu_list .menu_list_item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.g-nav .menu_list .menu_list_item:hover {
+  text-decoration: underline;
+}
+
+.li_active {
+  border: 5px solid cornflowerblue;
+}
+
+/* 본문 */
+section.main-contents {
+  width: 81%;
+}
+
+.main-contents_title {
+  font-size: 29px;
+  font-weight: 700;
+  margin: 5% 5% 2.2%;
+}
+
+.hidden {
+  display: none;
+}
+.viewBorder {
+  font-weight: 600;
+  color: #fff;
+}

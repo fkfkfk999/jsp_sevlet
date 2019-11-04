@@ -1,0 +1,101 @@
+article.board-table-box {
+  display: flex;
+  justify-content: center;
+}
+table.board-table {
+  width: 90%;
+  background-color: rgb(195, 213, 246);
+  text-align: center;
+  border: 1px solid #282829;
+}
+
+table.board-table th {
+  background-color: rgb(65, 86, 126);
+  color: white;
+}
+
+table.board-table tr {
+  border-bottom: 1px solid #282829;
+}
+
+table.board-table th,
+table.board-table td {
+  border-right: 1px solid #282829;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+article.btn-box {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article.btn-box div.btn-box__container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article.btn-box input[type="button"] {
+  padding: 5px 15px;
+  cursor: pointer;
+  height: 27px;
+  vertical-align: middle;
+  border: 1px solid #a9a9a9;
+  background: #90b3f1;
+  color: #fff;
+}
+
+article.btn-box input[type="text"] {
+  padding: 3px 14px;
+  vertical-align: middle;
+  height: 17px;
+}
+
+article.btn-box select {
+  padding: 2px 14px;
+  height: 27px;
+  vertical-align: middle;
+}
+
+input[type="button"].writeBtn {
+  padding: 3px 15px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+div.pagingbtn {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.pagingbtn ul.pagination,
+div.pagingbtn ul.cc-pagination {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.pagingbtn ul.pagination li a,
+div.pagingbtn ul.cc-pagination li a {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background-color: rgb(175, 179, 185);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.pagingbtn ul.pagination li a.active,
+div.pagingbtn ul.cc-pagination li a.active {
+  background-color: cornflowerblue;
+}
